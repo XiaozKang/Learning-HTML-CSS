@@ -1,5 +1,5 @@
 # HTML-CSS-Basics
-HTML and CSS basic (Template and Concept)
+HTML and CSS basic (Template and Concept) <br>
 Recommended to open with Visual Studio Code and compare with web page using Live Server extension
 
 
