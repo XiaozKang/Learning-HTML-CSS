@@ -1,0 +1,19 @@
+/* x,y,blurness,color */
+
+/* div{
+    width:200px;
+    height:200px;
+    background: blue;
+    box-shadow:4px 5px 4px green;
+} */
+
+body {
+  background: #000;
+}
+
+h1{
+    text-shadow:2px 2px 2px red;
+    font-size:5rem;
+    text-align:center;
+    margin-top:4px;
+}

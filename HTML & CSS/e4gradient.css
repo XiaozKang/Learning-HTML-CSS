@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+}
+
+div {
+  
+    background-image:url("https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  /* inserting a gradient, can assign more than 3 colors by adding more parameters*/
+  /* background-image: linear-gradient(rgba(89, 0, 255, 0.795),rgba(0, 128, 17, 0.788)),url("https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
+
+  /* Direction of the gradient, top to btm or left to right */
+  /* background-image: linear-gradient(
+      to left,
+      rgba(255, 0, 0, 0.253),
+      rgba(255, 166, 0, 0.719),
+      rgba(220, 20, 60, 0.582)
+    ),
+    url("https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
+
+  /* Radial Gradient (should not have direction since its circular)*/
+  /* background-image: radial-gradient(rgba(255, 0, 0, 0.253),rgba(255, 166, 0, 0.719),rgba(220, 20, 60, 0.582)),url("https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
+
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: initial;
+  background-size: cover;
+  background-attachment: fixed;
+
+  /* Filters */
+  /* filter: blur(5px); */
+  /* filter: brightness(50%); */
+  /* filter: contrast(100%) */
+  /* filter:grayscale(70%); */
+  /* filter:saturate(100%) */
+}

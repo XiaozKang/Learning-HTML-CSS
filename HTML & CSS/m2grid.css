@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+}
+
+.container {
+  background: rgb(34, 34, 34);
+  padding: 20px;
+  height: 100vh;
+
+  /* Grid Stuff Here */
+  display: grid;
+  grid-gap: 10px;
+  /* grid-template-columns:200px 200px 200px; */
+  /* naming for grid lines in square brackets */
+  /* grid-template-columns:[start]200px 200px[end]200px; */
+  /* fr unit is much useful, using the whole full screen */
+  /* grid-template-rows: repeat(3,1fr);  */
+  /* ensuring the middle grid doesnt become smaller as window */
+  /* grid-template-columns: 1fr minmax(200px,1fr) 1fr; */
+
+  /* grid-template-columns: repeat(auto-fill, 100px);
+  grid-template-rows: repeat(auto-fit, 100px); */
+
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(5, 100px);
+  /* justify-content:center;
+  align-items:center; */
+
+  /* grid-template-areas: 
+  "h h h h"
+  "m m m m"
+  "n n . a"
+  "f f f f"; */
+
+  /* row/column */
+  /* grid-template: 20% 20% 20% 20%/ 20% 20% 20% 20%; */
+
+  /* grid-template-areas: 
+  "h h h h"
+  "n n m m"
+  "a a m m"
+  "f f f f"; */
+  grid-template-areas: 
+  "h h h h"
+  "m m n n"
+  "m m a a"
+  "f f f f";
+
+}
+
+.s {
+  padding: 20px;
+  background: rgb(84, 84, 84);
+  text-align: center;
+  color: white;
+  /* margin:10px; */
+}
+
+/* Spanning the grid */
+/* header{
+    grid-column-start: 1;
+    grid-column-end:3;
+    grid-row-start:1;
+    grid-row-end:2;
+    grid-area: 1/1/1/2;
+}
+div{
+    grid-column:1/3;
+    grid-row:1/3
+}
+nav{
+    grid-column-start:1;
+    grid-column-end: span 2;
+}
+footer{
+    grid-column:start/end;
+}*/
+
+/* aside {
+  align-self: center;
+} */
+
+header {
+    grid-area:h;
+}
+main{
+    grid-area:m;
+}
+nav{
+    grid-area:n;
+}
+aside{
+    grid-area:a;
+}
+footer{
+    grid-area:f;
+}
+
+/* Can tryout grid garden on google to be more familiarise */

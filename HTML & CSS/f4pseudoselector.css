@@ -1,0 +1,19 @@
+/* For unvisited link */
+.link:link {
+  color: red;
+}
+
+/* For visited link */
+.visited:visited {
+  color: orange;
+}
+
+/* Changes color when cursor over link */
+.hover:hover {
+  color: skyblue;
+}
+
+/* Changes color only when clicking on the active link */
+.active:active {
+  color: green;
+}

@@ -1,0 +1,28 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > div {
+  width: 300px;
+  height: 300px;
+  background: cyan;
+  /* can only choose one from the below to transform, one will overwrite the another */
+  /* transform:translateX(-100px);
+    transform:translateY(-200px); */
+
+  /* if want to transform in both direction, used to code below */
+  /* transform:translate(-200px,-100px); */
+
+  /* Rotation of the container */
+  transform: rotate(20deg);
+
+  /* Scaling of the container  */
+  transform: scale(0.5,1);
+
+  /* Skewing and much more to explore */
+  transform: skew(10deg);
+
+}

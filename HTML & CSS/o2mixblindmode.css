@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: rgba(68, 0, 255, 0.089);
+}
+
+.container .img{
+  /* background-image: linear-gradient(rgba(70, 131, 180, 0.459),rgba(178, 34, 34, 0.527)), url("https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
+  background-image: url("https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=300"), url("https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"), linear-gradient(rgba(70, 131, 180, 0.527),rgba(178, 34, 34, 0.514));
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+
+  /* mix-blend-mode: multiply;
+  mix-blend-mode: darken;
+  mix-blend-mode: lighten;
+  mix-blend-mode: color-dodge;
+  mix-blend-mode: difference;
+  mix-blend-mode: hue;
+  mix-blend-mode: exclusion;
+  mix-blend-mode:saturation;
+  mix-blend-mode: color;
+  mix-blend-mode: luminosity; */
+
+  /* mix-blend-mode:overlay */
+  background-blend-mode: multiply,screen;
+}

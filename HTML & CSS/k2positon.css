@@ -1,0 +1,40 @@
+.container{
+    background: gray;
+    width:90%;
+    height:500px
+}
+
+.d{
+    width:100px;
+    height:100px
+}
+
+/* making use of relative positon to move the blocks (original position wont be taken over)*/
+.one{
+    background: teal;
+    position:relative;
+    left:200px;
+}
+
+/* making use of relative positon but original position taken over */
+.two{
+    background: red;
+    position:absolute;
+    left:400px;
+
+}
+
+/* making used of fixed position (meaning when scrolling, the block also follows with the window) */
+.three{
+    background: blue;
+    position:fixed;
+    top:200px;
+    left:200px
+}
+
+/* making used of sticky positon(meaning when scrolling, block moves with window but only until the end of parent/container) */
+.four{
+    background:pink;
+    position:sticky;
+    top:100px;
+}

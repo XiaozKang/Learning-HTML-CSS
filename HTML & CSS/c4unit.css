@@ -1,0 +1,31 @@
+/* %size according to the parent */
+/* section{
+    width: 200px;
+    height: 200px;
+    background: green;
+}
+div {
+    width: 60%;
+    height: 60%;
+    background: red;
+} */
+
+/* em = font size based on the current font */
+/* section{
+    font-size: 16px;
+}
+p{
+    font-size: 3em
+} */
+
+/* rem = font size based on the root font */
+/* p{
+    font-size: 3rem;
+} */
+
+/* viewboard height(vh) and viewboard width(vw)  */
+div{
+    background: teal;
+    width: 20vw;
+    height: 10vh;
+}

@@ -1,0 +1,49 @@
+/* Class selector */
+/* .one {
+  color: fuchsia;
+}
+.two {
+  font-size: 4em;
+} */
+
+/* ID selector */
+/* #xiaozkang {
+    color:red;
+    font-size:5em;
+} */
+
+/* ALL selector (selecting all elements within <selection> */
+/* section *{
+    font-size:6em;
+    color:aqua;
+} */
+
+/* In depth selector using class */
+/* div.text{
+    color:red;
+} */
+
+/* Select all <p> elements in within the class <div> */
+/* div p{
+    color:crimson;
+} */
+
+/* Select all <p> elements where the parent is a <div> element */
+/* div>p{
+    color:red;
+    font-size:3em;
+} */
+
+/* Select the first <p> element after the <div> element */
+/* div + p{
+    color:red;
+    font-size: 3em;
+} */
+
+/* Attributes selector */
+a[href="one"]{
+    color:orange;
+}
+img[alt="nature"]{
+    color:white;
+}

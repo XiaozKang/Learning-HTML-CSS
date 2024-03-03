@@ -1,0 +1,26 @@
+.parent{
+    color:orange;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    font-style:italic;
+    /* The below properties will not be inherited */
+    width:200px;
+    height:200px;
+    background:teal;
+}
+
+.child{
+    position:relative;
+    left:100px;
+    background: inherit;
+    width:inherit;
+    height:inherit;
+}
+
+.jokes{
+    color: blue;
+    background: red;
+    width:200px;
+    height:200px;
+}

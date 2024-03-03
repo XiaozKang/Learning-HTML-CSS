@@ -1,0 +1,26 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > a {
+  text-decoration: none;
+  border: 2px solid red;
+  padding: 10px 20px;
+  color: brown;
+
+  /* Transition */
+  /* transition-property: all; */
+  transition-property: background-color;
+  transition-duration: 2s;
+  /* rate at which the transition is happening, can visit cubic-bezier.com to choose favourite timing function */
+  transition-timing-function: ease-out;
+
+}
+
+.container > a:hover {
+  background-color: green;
+  color: pink;
+}

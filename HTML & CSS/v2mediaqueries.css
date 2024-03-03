@@ -1,0 +1,28 @@
+body {
+  background: rgb(255, 128, 82);
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    background: blue;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    background: teal;
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width:500px){
+    body{
+        background-color: white;
+    }
+    h1{
+        border:4px dotted deeppink;
+        font-size: 4rem;
+    }
+}
+
+/* Much more */

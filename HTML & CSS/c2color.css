@@ -1,0 +1,13 @@
+/* selector{property: value}*/
+h3 {
+  color: blueviolet;
+}
+h4 {
+  /* color: rgb(150, 100, 40);
+  /* a represent the transparency */
+  color: rgba(0, 0, 255, 0.8);
+}
+h5 {
+    background: teal;
+    color: #00ff00;
+}

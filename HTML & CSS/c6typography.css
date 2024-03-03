@@ -1,0 +1,36 @@
+/* Importing other fonts from fonts.google */
+@import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap');
+
+h1 {
+  font-family: cursive;
+  font-size: 50px;
+  /* Upper case first letter of every word */
+  /* text-transform: capitalize  */
+  /* upper case everyth */
+  text-transform: uppercase;
+  /* Aligning the text */
+  text-align: center;
+  /* text decoration */
+  text-decoration: line-through;
+}
+
+p {
+  /* imported font, can refer to fonts.google */
+  font-family:"Ma Shan Zheng", cursive;
+  /* Distance between each line */
+  line-height: 20px;
+  /* Spacing between each letter */
+  letter-spacing: 3px;
+  /* Spacing between each word */
+  word-spacing: 20px;
+  /* Changing the cursor type */
+  cursor: auto;
+  /* Changing the boldness of the text */
+  font-weight: normal;
+}
+
+a {
+  /* Removing the link */
+  text-decoration: none;
+  color: black;
+}

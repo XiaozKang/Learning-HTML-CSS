@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background: blueviolet;
+}
+
+.container {
+  border: 2px solid white;
+  width: 800px;
+  height: 400px;
+  /* 20px top and bottom and auto for left and right(middle)*/
+  margin: 20px auto;
+
+  /* Flexbox starts here */
+  display: flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+
+  /* Setting the items in the row axis */
+  /* justify-content:space-around; */
+
+  /* Setting the items in the column axis */
+  /* flex-wrap:wrap;
+  align-items: flex-end; */
+  
+  /* align the the whole content as a batch */
+  /* flex-wrap:wrap;
+  align-content:center; */
+
+  /* combination of both flex-wrap and flex-direciton */
+  flex-flow: column wrap;
+}
+
+/* need spacing between child and container */
+.container .child {
+  width: 20px;
+  height: 20px;
+  background: crimson;
+  text-align: center;
+  margin: 10px;
+}
+
+/* Setting the order of the items */
+.special2{
+    order:1;
+
+    /* To align mainly own item itself */
+    /* align-self:center; */
+    flex-basis:20px;
+    /* grow is based on the rest of the flex items, eg 2times than then other flex items */
+    flex-grow:1;
+    
+}
+.special3{
+    order:2;
+    flex-basis:20px;
+    /* shrink is based on the rest of the flex items, eg 2times than then other flex items */
+    flex-shrink:0;
+}
+.special1{
+    order:3;
+    flex-basis:20px;
+}
+.special4{
+    flex-basis:20px;
+    flex-shrink:4;
+}
+
+/* Can try out flexbox froggy game online */
+/* When using flex-basis , the container ignores the sizing of its children,
+ and the children overflow the container. But with the width property, 
+ the container respects the sizing of its children and expands accordingly */

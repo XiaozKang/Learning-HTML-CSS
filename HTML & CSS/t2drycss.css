@@ -1,0 +1,33 @@
+/* Do not repeat yourself */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* BAD WAY of styling */
+/* section.one .btn{
+    background:transparent;
+    border:none;
+    margin: 10px;
+    background: rgb(6,6,6);
+    padding:1em 2em;
+    color: white;
+    cursor: pointer;
+} */
+
+/* Better way of styling */
+.btn {
+  background: transparent;
+  border: none;
+  margin: 10px;
+  background: rgb(6, 6, 6);
+  padding: 1em 2em;
+  color: white;
+  cursor: pointer;
+}
+.btn-secondary {
+  /* Does not repeat urself for like color cursor etc */
+  background: green;
+}
