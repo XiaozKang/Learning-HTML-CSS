@@ -17,4 +17,4 @@ Recommend to launch in Visual Studio Code and compare with web page using Live S
 
 
 
-Reference: [HuXn ](https://www.youtube.com/hashtag/huxnwebdev)https://www.youtube.com/hashtag/huxnwebdev
+Reference: https://www.youtube.com/watch?v=bWACo_pvKxg&t=30632s
